@@ -1,0 +1,11 @@
+{
+  "database": "E:\\AI assistant 1\\ops-copilot\\data\\ops_copilot.db",
+  "as_of": "2026-11-01",
+  "products": 40,
+  "customers": 1500,
+  "orders": 5000,
+  "order_items": 7462,
+  "inventory_rows": 120,
+  "tickets": 900,
+  "low_stock_rows": 15
+}

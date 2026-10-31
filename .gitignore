@@ -9,6 +9,7 @@ htmlcov/
 .streamlit/secrets.toml
 .streamlit/credentials.toml
 data/index/
+data/.fastembed_cache/
 data/usage.db
 data/*.db-journal
 data/*.db-wal

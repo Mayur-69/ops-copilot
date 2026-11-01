@@ -661,8 +661,12 @@ def build_database(
         connection.close()
     os.replace(temporary_path, output_path)
 
+    try:
+        database_label = output_path.resolve().relative_to(ROOT).as_posix()
+    except ValueError:
+        database_label = output_path.name
     summary = {
-        "database": str(output_path),
+        "database": database_label,
         "as_of": as_of.isoformat(),
         "products": len(products),
         "customers": len(customers),

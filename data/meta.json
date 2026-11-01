@@ -1,5 +1,5 @@
 {
-  "database": "E:\\AI assistant 1\\ops-copilot\\data\\ops_copilot.db",
+  "database": "data/ops_copilot.db",
   "as_of": "2026-11-01",
   "products": 40,
   "customers": 1500,

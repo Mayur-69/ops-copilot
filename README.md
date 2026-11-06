@@ -4,6 +4,8 @@ Ops Copilot is a private AI operations assistant for **AquaPure Water Solutions*
 
 The project is intentionally self-contained: a deterministic SQLite database, a small company document set, a local Chroma vector index, a Streamlit UI, an MCP server, tests, and an evaluation suite.
 
+Repository: <https://github.com/Mayur-69/ops-copilot>
+
 ## What it does
 
 - Answers policy, warranty, returns, shipping, installation, filter, escalation, dealer, and product-manual questions from company documents.
